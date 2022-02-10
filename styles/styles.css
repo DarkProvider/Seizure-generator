@@ -1,0 +1,103 @@
+html, body {
+    font-family: Roboto;
+    height: 100%;
+    background-image: url(../assets/blob-scene-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+.container {
+
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: inset;
+    height: 500px;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: 5px 5px 2px 2px rgb(60, 129, 250);
+}
+
+.randomtext {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+.description {
+    font-size: 20px;
+    color: rgb(129, 129, 129);
+    text-align: center;
+    margin-top: 5px;
+    width: 600px;
+}
+
+.color-container {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+
+}
+
+.secret-color {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 40px;
+    background-color: blueviolet;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.firstdivtext {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.seconddivtext {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.copyright { 
+    font-size: 13px;
+    color: grey;
+    margin-top: 20px;
+    text-align: center;
+}
